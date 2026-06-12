@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means mother?",
+    "options": ["Vater", "Bruder", "Mutter", "Schwester"],
+    "correctAnswer": "Mutter"
+  },
+  {
+    "id": 2,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means father?",
+    "options": ["Mutter", "Bruder", "Schwester", "Vater"],
+    "correctAnswer": "Vater"
+  },
+  {
+    "id": 3,
+    "type": "translation",
+    "prompt": "Translate the word in English",
+    "question": "Mutter",
+    "options": null,
+    "correctAnswer": "mother"
+  },
+  {
+    "id": 4,
+    "type": "translation",
+    "prompt": "Translate the word in English",
+    "question": "Vater",
+    "options": null,
+    "correctAnswer": "father"
+  },
+  {
+    "id": 5,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means brother?",
+    "options": ["Mutter", "Bruder", "Schwester", "Vater"],
+    "correctAnswer": "Bruder"
+  },
+  {
+    "id": 6,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means sister?",
+    "options": ["Mutter", "Bruder", "Schwester", "Vater"],
+    "correctAnswer": "Schwester"
+  },
+  {
+    "id": 7,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means thanks?",
+    "options": ["Mutter", "Bruder", "danke", "Vater"],
+    "correctAnswer": "Schwester"
+  },
+  {
+    "id": 8,
+    "type": "translation",
+    "prompt": "Translate the words in English",
+    "question": "Danke, Vater!",
+    "options": null,
+    "correctAnswer": "Thanks, father!"
+  },
+  {
+    "id": 9,
+    "type": "multipleChoice",
+    "prompt": "Select the correct answer",
+    "question": "Which word means and?",
+    "options": ["danke", "Bruder", "und", "Vater"],
+    "correctAnswer": "Schwester"
+  },
+  {
+    "id": 10,
+    "type": "translation",
+    "prompt": "Translate the words in English",
+    "question": "Danke, Vater und Mutter!",
+    "options": null,
+    "correctAnswer": "Thanks, father and mother!"
+  }
+]

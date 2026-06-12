@@ -1,0 +1,98 @@
+[
+{
+  "id": 1,
+  "title": "Family Members",
+  "words": [
+    {
+      "article": "die",
+      "german": "Mutter",
+      "english": "mother"
+    },
+    {
+      "article": "der",
+      "german": "Vater",
+      "english": "father"
+    },
+    {
+      "article": "der",
+      "german": "Bruder",
+      "english": "brother"
+    },
+    {
+      "article": "die",
+      "german": "Schwester",
+      "english": "sister"
+    },
+    {
+      "article": "der",
+      "german": "Sohn",
+      "english": "son"
+    },
+    {
+      "article": "die",
+      "german": "Tochter",
+      "english": "daughter"
+    },
+    {
+      "article": "die",
+      "german": "Großmutter",
+      "english": "grandmother"
+    },
+    {
+      "article": "der",
+      "german": "Großvater",
+      "english": "grandfather"
+    },
+    {
+      "article": "der",
+      "german": "Neffe",
+      "english": "nephew"
+    },
+    {
+      "article": "die",
+      "german": "Nichte",
+      "english": "niece"
+    },
+    {
+      "article": "der",
+      "german": "Onkel",
+      "english": "uncle"
+    },
+    {
+      "article": "die",
+      "german": "Tante",
+      "english": "aunt"
+    },
+    {
+      "article": "der",
+      "german": "Enkel",
+      "english": "grandson"
+    },
+    {
+      "article": "die",
+      "german": "Enkelin",
+      "english": "granddaughter"
+    },
+    {
+      "article": "die",
+      "german": "Eltern",
+      "english": "parents"
+    },
+    {
+      "article": "die",
+      "german": "Großeltern",
+      "english": "grandparents"
+    },
+    {
+      "article": "die",
+      "german": "Kinder",
+      "english": "children"
+    },
+    {
+      "article": "die",
+      "german": "Geschwister",
+      "english": "siblings"
+    }
+  ]
+}
+]

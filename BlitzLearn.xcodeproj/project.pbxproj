@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0EBCBF182FCED608001E9F55 /* learn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EBCBF182FCED608001E9F55 /* BlitzLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlitzLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		0EBCBF192FCED608001E9F55 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EBCBF182FCED608001E9F55 /* learn.app */,
+				0EBCBF182FCED608001E9F55 /* BlitzLearn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EBCBF172FCED608001E9F55 /* learn */ = {
+		0EBCBF172FCED608001E9F55 /* BlitzLearn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EBCBF232FCED609001E9F55 /* Build configuration list for PBXNativeTarget "learn" */;
+			buildConfigurationList = 0EBCBF232FCED609001E9F55 /* Build configuration list for PBXNativeTarget "BlitzLearn" */;
 			buildPhases = (
 				0EBCBF142FCED608001E9F55 /* Sources */,
 				0EBCBF152FCED608001E9F55 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				0EBCBF1A2FCED608001E9F55 /* learn */,
 			);
-			name = learn;
+			name = BlitzLearn;
 			packageProductDependencies = (
 			);
 			productName = learn;
-			productReference = 0EBCBF182FCED608001E9F55 /* learn.app */;
+			productReference = 0EBCBF182FCED608001E9F55 /* BlitzLearn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0EBCBF132FCED608001E9F55 /* Build configuration list for PBXProject "learn" */;
+			buildConfigurationList = 0EBCBF132FCED608001E9F55 /* Build configuration list for PBXProject "BlitzLearn" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EBCBF172FCED608001E9F55 /* learn */,
+				0EBCBF172FCED608001E9F55 /* BlitzLearn */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +258,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +290,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EBCBF132FCED608001E9F55 /* Build configuration list for PBXProject "learn" */ = {
+		0EBCBF132FCED608001E9F55 /* Build configuration list for PBXProject "BlitzLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EBCBF212FCED609001E9F55 /* Debug */,
@@ -318,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EBCBF232FCED609001E9F55 /* Build configuration list for PBXNativeTarget "learn" */ = {
+		0EBCBF232FCED609001E9F55 /* Build configuration list for PBXNativeTarget "BlitzLearn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EBCBF242FCED609001E9F55 /* Debug */,
