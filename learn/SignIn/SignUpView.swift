@@ -26,10 +26,15 @@ struct SignUpView: View {
                 .textFieldStyle(.roundedBorder)
             
             Button(action: {
-                let newUser = User(username: username, email: email, password: password)
-                context.insert(newUser)
+                //let newUser = User(username: username, email: email, password: password)
+                //context.insert(newUser)
+                DatabaseManager.shared.insertUser(
+                    username: username,
+                    email: email,
+                    password: password
+                )
                 
-                print("username: \(username) email: \(email) password: \(password)")
+                //print("username: \(username) email: \(email) password: \(password)")
             }) {
                 Text("Sign Up")
                     .frame(maxWidth: .infinity)

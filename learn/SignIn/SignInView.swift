@@ -26,7 +26,13 @@ struct SignInView: View {
                 SecureField("Password", text: $password)
                     .textFieldStyle(.roundedBorder)
                 Button(action: {
-                    isSignedIn = true
+                    let isVerified = DatabaseManager.shared.checkUser(username: username, password: password)
+                    
+                    if isVerified {
+                        isSignedIn = true
+                    } else{
+                        print("Show an error message to the user here!")
+                    }
                 }) {
                     
                     Text("Sign In")

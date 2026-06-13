@@ -5,7 +5,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means mother?",
     "options": ["Vater", "Bruder", "Mutter", "Schwester"],
-    "correctAnswer": "Mutter"
+    "acceptedAnswers": ["Mutter"]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means father?",
     "options": ["Mutter", "Bruder", "Schwester", "Vater"],
-    "correctAnswer": "Vater"
+    "acceptedAnswers": ["Vater"]
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "prompt": "Translate the word in English",
     "question": "Mutter",
     "options": null,
-    "correctAnswer": "mother"
+    "acceptedAnswers": ["mother", "mom", "mum", "Mother", "Mom", "Mum"]
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "prompt": "Translate the word in English",
     "question": "Vater",
     "options": null,
-    "correctAnswer": "father"
+    "acceptedAnswers": ["father", "dad", "Father", "Dad"]
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means brother?",
     "options": ["Mutter", "Bruder", "Schwester", "Vater"],
-    "correctAnswer": "Bruder"
+    "acceptedAnswers": ["Bruder"]
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means sister?",
     "options": ["Mutter", "Bruder", "Schwester", "Vater"],
-    "correctAnswer": "Schwester"
+    "acceptedAnswers": ["Schwester"]
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means thanks?",
     "options": ["Mutter", "Bruder", "danke", "Vater"],
-    "correctAnswer": "Schwester"
+    "acceptedAnswers": ["danke"]
   },
   {
     "id": 8,
@@ -61,7 +61,8 @@
     "prompt": "Translate the words in English",
     "question": "Danke, Vater!",
     "options": null,
-    "correctAnswer": "Thanks, father!"
+    "acceptedAnswers": ["Thanks, father!", "Thank you, father!", "Thanks dad!", "Thank you dad!", "thanks, father!"
+    ,"thanks father", "thank you father", "thank you dad", "thank you, father!", "thank you, dad!", "thanks dad"]
   },
   {
     "id": 9,
@@ -69,7 +70,7 @@
     "prompt": "Select the correct answer",
     "question": "Which word means and?",
     "options": ["danke", "Bruder", "und", "Vater"],
-    "correctAnswer": "Schwester"
+    "acceptedAnswers": ["und"]
   },
   {
     "id": 10,
@@ -77,6 +78,6 @@
     "prompt": "Translate the words in English",
     "question": "Danke, Vater und Mutter!",
     "options": null,
-    "correctAnswer": "Thanks, father and mother!"
+    "acceptedAnswers": ["Thanks, father and mother!", "Thank you, father and mother!", "Thanks dad and mom!", "Thank you dad and mom!"]
   }
 ]

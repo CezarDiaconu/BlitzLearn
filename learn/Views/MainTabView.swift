@@ -16,8 +16,8 @@ struct MainTabView: View {
             Tab("Learn", systemImage: "book.fill") {
                 LearnView()
             }
-            Tab("Exercise", systemImage: "pencil") {
-                ExerciseView()
+            Tab("Practice", systemImage: "pencil") {
+                PracticeView()
             }
             Tab("Account", systemImage: "person.crop.circle.fill") {
                 AccountView()

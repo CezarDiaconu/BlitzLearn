@@ -1,4 +1,14 @@
 import Foundation
+
+struct Exercise: Codable {
+    let id: Int
+    var type: String
+    var prompt: String
+    var question: String
+    var options: [String]?
+    var acceptedAnswers: [String]
+}
+
 class ExerciseLoader {
     
     // This function returns an array of your Exercise structs
